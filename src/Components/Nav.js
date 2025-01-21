@@ -9,13 +9,13 @@ const Nav = () => {
         </div>
 
         <ul className="md:flex uppercase font-semibold text-1xl lg:text-[20px] text-slate-800">
-            <li className="mr-4 lg:mr-8 hover:text-lime-500">
+            <li className="mr-4 lg:mr-8 hover:text-green-500">
                 <Link href='/'>home</Link>
             </li>
-            <li className="mr-4 lg:mr-8 hover:text-lime-500">
+            <li className="mr-4 lg:mr-8 hover:text-green-500">
                 <Link href='/about'>about</Link>
             </li>
-            <li className="mr-4 lg:mr-8 hover:text-lime-500">
+            <li className="mr-4 lg:mr-8 hover:text-green-500">
                 <Link href='/make'>make mailbox</Link>
             </li>
         </ul>
