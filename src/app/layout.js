@@ -1,5 +1,5 @@
 
-import Nav from "@/Components/Nav";
+import Navbar from "@/Components/Navbar";
 import "./globals.css";
 
 
@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         
-        <Nav />
+        <Navbar />
         {children}
       </body>
     </html>
